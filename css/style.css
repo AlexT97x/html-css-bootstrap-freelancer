@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    height: 100px;
+    background-color: rgb(44, 62, 80);
+}
+
+.logo{
+    position: relative;
+}
+
+.logo > h3{
+    position: absolute;
+    left: 40%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.right_menu{
+    position: relative;
+}
+
+.pop_up_menu ul{
+    list-style: none;
+}
+
+.pop_up_menu li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.pop_up_menu{
+    display: none;
+    position: relative;
+}
+
+.hamburger{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hamburger > i{
+    font-size: 25px;
+}
+
+
+.jumbotron{
+    background-color: rgb(26, 188, 156);
+    height: 500px;
+}
+
+
+.section_title{
+    background-color: red;
+    height: 120px;
+}
+
+
+.backgroung-col{
+    background-color:rgb(26, 188, 156); 
+}
+
+.second_sec{
+    background-color: rgb(240, 20, 20);
+}
+
+.col-content{
+    background-color: white;
+    border: 1px dashed black;
+    border-radius: 5%;
+    text-align: center;
+    margin: 5px;
+    padding: 50px;
+   
+}
