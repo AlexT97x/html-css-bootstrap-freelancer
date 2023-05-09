@@ -35,11 +35,12 @@
 }
 
 .pop_up_menu{
-    display: none;
+    display: inline-block;
     position: relative;
 }
 
 .hamburger{
+    display: none;
     position: absolute;
     right: 0%;
     top: 50%;
